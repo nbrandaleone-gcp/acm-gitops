@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: apache-deployment
+  name: seattle-deployment
   namespace: seattle
   labels:
     role: webserver
@@ -18,7 +18,7 @@ spec:
         role: webserver
     spec:
       containers:
-      - name: frontend
+      - name: web-app
         image: nbrand/seattle-nginx
         ports:
         - containerPort: 80
