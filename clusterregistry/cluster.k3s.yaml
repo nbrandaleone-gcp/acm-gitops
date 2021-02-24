@@ -2,6 +2,6 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: eks
+  name: k3s
   labels:
-    cloud: aws
+    cloud: google
