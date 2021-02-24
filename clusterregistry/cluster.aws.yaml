@@ -4,5 +4,4 @@ apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
   name: gke
   labels:
-    environment: dev
     cloud: aws
