@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    configsync.gke.io/cluster-name-selector: gke
+  #  annotations:
+  #  configsync.gke.io/cluster-name-selector: gke
   # configmanagement.gke.io/cluster-selector: select-cloud-google
   name: apache-deployment
   namespace: apache
