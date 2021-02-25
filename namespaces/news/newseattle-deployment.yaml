@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: seattle-deployment
-  namespace: newseattle
+  namespace: news
   annotations:
     configmanagement.gke.io/cluster-selector: select-cloud-aws
   labels:
