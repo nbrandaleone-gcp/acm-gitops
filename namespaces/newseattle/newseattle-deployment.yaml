@@ -4,7 +4,7 @@ metadata:
   name: seattle-deployment
   namespace: newseattle
   annotations:
-    configmanagement.gke.io/cluster-selector: select-cloud-google
+    configmanagement.gke.io/cluster-selector: select-cloud-aws
   labels:
     role: webserver
 spec:
