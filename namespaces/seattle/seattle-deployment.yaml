@@ -6,7 +6,7 @@ metadata:
   labels:
     role: webserver
   annotations:
-    configmanagement.gke.io/cluster-selector: select-cloud-google
+    configmanagement.gke.io/cluster-selector: cs-cluster
 spec:
   replicas: 2
   selector:
